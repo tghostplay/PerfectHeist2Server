@@ -35,9 +35,9 @@ bash "${STEAMAPPDIR}/PerfectHeist2Server.sh" \
 	-ini:Game:[Advanced]:sprintingStamina=${SPRINTING_STAMINA} \
 	-ini:Game:[Advanced]:noSprinting=${NO_SPRINTING} \
 	-ini:Game:[Advanced]:NoTeamDamage=${NO_TEAM_DAMAGE} \
-    -ini:Game:[Advanced]:ServerOwnerID=${SERVER_OWNER_ID} \
-    -ini:Game:[Advanced]:MaxPlayers=${MAX_PLAYERS} \
-    -ini:Game:[Advanced]:picktime=${PICKTIME} \
-    -ini:Game:[Advanced]:spectators=${SPECTATORS} \
-    -ini:Game:[Advanced]:WorkshopFolderFullPath=${STEAMAPPDIR}/steamapps/workshop/content/${WORKSHOPID}/${WORKSHOP_MAP_ID} \
-    -ini:Game:[Advanced]:WorkshopMapID=${WORKSHOP_MAP_ID}
+  -ini:Game:[Advanced]:ServerOwnerID=${SERVER_OWNER_ID} \
+  -ini:Game:[Advanced]:MaxPlayers=${MAX_PLAYERS} \
+  -ini:Game:[Advanced]:picktime=${PICKTIME} \
+  -ini:Game:[Advanced]:spectators=${SPECTATORS} \
+  -ini:Game:[Advanced]:WorkshopFolderFullPath=${STEAMAPPDIR}/steamapps/workshop/content/${WORKSHOPID}/${WORKSHOP_MAP_ID} \
+  -ini:Game:[Advanced]:WorkshopMapID=${WORKSHOP_MAP_ID}

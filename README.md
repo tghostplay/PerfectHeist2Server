@@ -1,5 +1,14 @@
 # PerfectHeist2 Dedicated Server Docker Image
 
+# Forked from [murzart/PerfectHeist2](https://github.com/murzart/PerfectHeist2)
+
+## Use for F&N NetWorks on Windows Server
+Using this image for F&N NetWorks requires the following commands:
+```console
+git clone https://git.fundn-networks.de/GhostPlay/PerfectHeist2Server.git
+cd PerfectHeist2Server
+docker run -d --net=host -v C:/Game_Servers/PerfectHeist2Server:/home/steam/PerfectHeist2Server-dedicated/ --name=ph2-dedicatedserver --build Dockerfile
+```
 
 # How to use this image
 
